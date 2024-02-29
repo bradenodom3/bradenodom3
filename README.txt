@@ -1,32 +1,15 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Braden Odom
 
+Located within this account is all of the code and documents I used in my portfolio of data analysis projects. Listed below is a high-level overview of what I researched and accomplished within each project:
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+## FIFA Cleaning and Exploratory Analysis
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+In this project, I cleaned data through SQL. I **created views**, **altered columns and data types**, **performed case statements**, and more in order to standardize formatting, add calculated columns, and break date ranges out into 'beginning' and 'end' columns. This allowed for more easier interpretation of the data and more meaningful analysis. After cleaning the entire dataset, I then imported the data into **Microsoft Power BI** and visualized it to uncover trends. Some of the visualizations I created included a correlation analysis between a player's skill level and their annual wage, the frequency of certain nationalities among professional soccer players, and the distribution of skill-levels among various positions.
 
-(* = not included)
+## Collegiate Baseball Hitters Analysis
 
-AJ
-aj@lkn.io | @ajlkn
+In this project, I imported data collected by the baseball program at Trevecca Nazarene University and analyzed it within Excel. I first consulted with the team's coaches to figure out what information they wanted, and what decisions they wanted to be better informed to make. Then, I took the data provided and synthesized it into various reports and pages to offer insights into those data points. These reports included **PivotTables**, **PivotCharts**, **conditional formatting**, and a host of **slicers** to make it more user friendly. Finally, I combined the most critical aspects of player and team data into a clear, visually appealing dashboard so they coaches could easily review the data and make better decisions.
 
+## COVID Analysis and Dashboard
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+In this project, I utilized a public dataset surrounding COVID infection rates among various countries. I first cleaned the data through Power Query by removing duplicate data, fixing structural issues, renaming columns to give them meaningful names, and standardizing data formats. Next, I used SQL to analyze the data more thoroughly. I used **window functions**, **CTEs**, and a host of **SQL functions** to gain a more in-depth understanding of the data. Finally, I created a dashboard through **Tableau** to visualize patterns in the data and showcase the infection rates and death rates around the globe.  
