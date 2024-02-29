@@ -1,4 +1,4 @@
-Braden Odom Portfolio
+#Braden Odom Portfolio
 
 Located within this account is all of the code and documents I used in my portfolio of data analysis projects. Listed below is a high-level overview of what I researched and accomplished within each project:
 
